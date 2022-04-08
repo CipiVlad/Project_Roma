@@ -38,6 +38,7 @@ html {
 #####################################################################*/
 /* main background img cleo  */
 main {
+
     background-color: #000;
     /* background-blend-mode: multiply; */
 }
@@ -104,12 +105,13 @@ main section div {
 main section div h2 {
     text-align: left;
     font-family: 'Tangerine', cursive;
-    font-size: 4em;
+    font-size: 5em;
+    letter-spacing: -2.9px;
     margin-top: 3em;
     color: #e7bc0e;
 }
 
-/* main section h1 */
+/* main section caring women */
 
 .caringwomen {
     width: 63%;
@@ -122,6 +124,72 @@ main section div h2 {
     left: 6em;
     top: 5em;
 }
+
+/* main section 2.5 million domestic workers */
+.million {
+    width: 63%;
+    text-align: left;
+    line-height: 1.5em;
+    font-family: santio bold;
+    font-size: 12rem;
+    font-weight: bold;
+    color: #e7bc0e;
+    position: relative;
+    left: 1.6em;
+}
+
+.domestic-workers-img img {
+    width: 10%;
+    color: #e7bc0e;
+    position: relative;
+    left: 8.2em;
+    bottom: 16em;
+    padding-bottom: 10em;
+}
+
+.domestic-workers {
+    width: 63%;
+    text-align: left;
+    line-height: 1.5em;
+    font-family: santio bold;
+    font-size: 3.1rem;
+    color: #e7bc0e;
+    position: relative;
+    left: 6.2em;
+    bottom: 1em;
+}
+
+.domestic-workers p:first-child {
+    display: inline;
+}
+
+.domestic-workers p:last-child {
+    padding: 0 4px px;
+    background: rgb(45, 44, 44);
+    color: #fff;
+    display: inline-block;
+}
+
+/* main section paid less with class="domestic-workers"  */
+
+main section:nth-of-type(5) h1 {
+    color: #cb91b6;
+}
+
+main section:nth-of-type(5) p {
+    color: #cb91b6;
+}
+
+/* main section no health insurance */
+main section:nth-of-type(6) h1 {
+    color: #6bc1a3;
+}
+
+main section:nth-of-type(6) p {
+    color: #6bc1a3;
+}
+
+
 
 
 /* 
